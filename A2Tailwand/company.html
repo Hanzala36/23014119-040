@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title OF The Web -->
+    <title>Patek Phillipe Offical site- | Luxury Watches for Men and Women</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <!-- Icon Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#8b0000',
+                        dark: '#1a1a1a',
+                    },
+                    spacing: {
+                        '128': '32rem',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .scroll-smooth {
+                scroll-behavior: smooth;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .transition-transform {
+                transition-property: transform;
+            }
+            .transition-all {
+                transition-property: all;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900 scroll-smooth">
+    <!-- Header Design -->
+    <header>
+        <nav class="bg-white shadow-md sticky top-0 z-50">
+            <div class="max-w-6xl mx-auto px-8 py-4 flex flex-col">
+                <a href="index.html" class="flex flex-col items-center py-4">
+                    <div class="flex flex-col items-center">
+                        <img src="images/logo.jpeg" alt="Patek Philippe logo" class="w-20 mb-2">
+                        <h2 class="text-xl tracking-widest font-light my-1">Patek Philippe</h2>
+                        <p class="text-sm">GENEVE</p>
+                    </div>
+                </a>
+                <div class="flex justify-between items-center py-4">
+                    <div class="flex gap-6">
+                        <a href="index.html" class="text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors">HOME</a>
+                        <a href="collection.html" class="text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors">COLLECTION</a>
+                        <a href="company.html" class="text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors">COMPANY</a>
+                        <a href="r&service.html" class="text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors">RETAIL & SERVICE</a>
+                        <a href="legacy.html" class="text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors">Legacy</a>
+                    </div>
+                    <div class="flex gap-4">
+                        <i class="fa-solid fa-magnifying-glass text-base hover:text-primary cursor-pointer transition-colors"></i>
+                        <i class="fa-solid fa-globe text-base hover:text-primary cursor-pointer transition-colors"></i>
+                        <i class="fa-regular fa-heart text-base hover:text-primary cursor-pointer transition-colors"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))] bg-cover bg-center h-[60vh] flex flex-col justify-center items-center text-center px-8 text-white" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.patek.com/content/dam/patek-com/company/manufacture/manufacture-01.jpg')">
+        <h1 class="text-4xl md:text-5xl font-light mb-4 tracking-widest">The Manufacture</h1>
+        <p class="text-xl max-w-2xl">The last family-owned Geneva watch manufacturer</p>
+    </section>
+
+    <!-- Main Content -->
+    <section class="max-w-6xl mx-auto px-8 my-16">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-light tracking-wider mb-6">Patek Philippe: A Legacy of Excellence</h2>
+            <p class="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+                Since 1839, Patek Philippe has been crafting exceptional timepieces that represent the pinnacle of Swiss watchmaking. As the last family-owned independent watch manufacturer in Geneva, we maintain complete creative freedom to preserve our tradition of innovation while respecting our heritage of excellence.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
+            <!-- Feature Card 1 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                <div class="h-64 overflow-hidden">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.sYLtwj71Hwfwl2KnsY6wGgHaE7?rs=1&pid=ImgDetMain" alt="Patek Philippe Manufacture" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-8">
+                    <h3 class="text-xl font-normal mb-4">The Manufacture</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        About the last family-owned Geneva watch manufacturer. Discover our state-of-the-art facilities where tradition meets innovation in the heart of Switzerland's watchmaking country.
+                    </p>
+                    <a href="#" class="text-primary font-medium inline-flex items-center hover:text-dark transition-colors">
+                        Explore The Manufacture <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Feature Card 2 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                <div class="h-64 overflow-hidden">
+                    <img src="https://www.cartier.com/content/images/cms/ycm/resource/blob/112190/8dc6762a99a8ddf735180511e4cd7a29/picture-1-data.png/w1600.jpg" alt="Savoir-Faire" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-8">
+                    <h3 class="text-xl font-normal mb-4">Savoir-Faire</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Attention to detail, minute repeaters and rare handcrafts. Our master craftsmen employ techniques passed down through generations to create watches of unparalleled quality.
+                    </p>
+                    <a href="#" class="text-primary font-medium inline-flex items-center hover:text-dark transition-colors">
+                        Discover Our Craft <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Feature Card 3 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                <div class="h-64 overflow-hidden">
+                    <img src="https://th.bing.com/th/id/R.93391eb5b3c648c1509849e6eed6d12c?rik=FDSlSwgc1ffi4Q&pid=ImgRaw&r=0" alt="History" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-8">
+                    <h3 class="text-xl font-normal mb-4">History</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        From 1839 to nowadays... Trace our remarkable journey through nearly two centuries of watchmaking excellence and innovation that has shaped horological history.
+                    </p>
+                    <a href="#" class="text-primary font-medium inline-flex items-center hover:text-dark transition-colors">
+                        Explore Our History <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Feature Card 4 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                <div class="h-64 overflow-hidden">
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.XOCLBIGDguNbhiefTQPKXQHaE8?rs=1&pid=ImgDetMain" alt="Patek Philippe Museum" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-8">
+                    <h3 class="text-xl font-normal mb-4">Patek Philippe Museum</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        500 years of horological history. Our Geneva museum houses one of the world's most important collections of antique timepieces and watchmaking tools.
+                    </p>
+                    <a href="#" class="text-primary font-medium inline-flex items-center hover:text-dark transition-colors">
+                        Visit The Museum <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Feature Card 5 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                <div class="h-64 overflow-hidden">
+                    <img src="https://th.bing.com/th/id/OIP.DdD7WSuzmVcIpSPeU6DMYwHaD4?rs=1&pid=ImgDetMain" alt="Library" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-8">
+                    <h3 class="text-xl font-normal mb-4">Library</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Patek Philippe books. Our extensive horological library contains rare volumes documenting the art and science of time measurement through the ages.
+                    </p>
+                    <a href="#" class="text-primary font-medium inline-flex items-center hover:text-dark transition-colors">
+                        Browse The Library <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Feature Card 6 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                <div class="h-64 overflow-hidden">
+                    <img src="https://tse2.mm.bing.net/th/id/OIP.O8I4f_deJpVabB6YyY2g3QAAAA?rs=1&pid=ImgDetMain" alt="Philosophy" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-8">
+                    <h3 class="text-xl font-normal mb-4">Philosophy</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Discover the Patek Philippe Philosophy Series. Learn about the values that guide our company and the principles that inform our approach to watchmaking.
+                    </p>
+                    <a href="#" class="text-primary font-medium inline-flex items-center hover:text-dark transition-colors">
+                        Explore Our Philosophy <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Feature Card 7 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                <div class="h-64 overflow-hidden">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.o6QIcv5DcdEezzDxMuvx-AHaJi?rs=1&pid=ImgDetMain" alt="News" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-8">
+                    <h3 class="text-xl font-normal mb-4">News</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        The latest information about Patek Philippe. Stay updated with our newest creations, events, and company announcements.
+                    </p>
+                    <a href="#" class="text-primary font-medium inline-flex items-center hover:text-dark transition-colors">
+                        Read The News <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Feature Card 8 -->
+            <div class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+                <div class="h-64 overflow-hidden">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.VaMZhobJUR58rKioDEBBTwHaE8?rs=1&pid=ImgDetMain" alt="TechNews" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="p-8">
+                    <h3 class="text-xl font-normal mb-4">TechNews</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        Explore the secrets of haute horlogerie. Our technical publications reveal the innovations behind our most complicated timepieces.
+                    </p>
+                    <a href="#" class="text-primary font-medium inline-flex items-center hover:text-dark transition-colors">
+                        Discover TechNews <i class="fas fa-arrow-right ml-1 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-12 pb-4 px-8">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-8">
+            <!-- Company Column -->
+            <div>
+                <h3 class="text-lg font-medium uppercase tracking-wider mb-4">Company</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">About Us</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">History</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Manufacture</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Careers</a></li>
+                </ul>
+            </div>
+            
+            <!-- Customer Service Column -->
+            <div>
+                <h3 class="text-lg font-medium uppercase tracking-wider mb-4">Customer Service</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Contact Us</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">FAQ</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Warranty</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Service Centers</a></li>
+                </ul>
+            </div>
+            
+            <!-- Legal Column -->
+            <div>
+                <h3 class="text-lg font-medium uppercase tracking-wider mb-4">Legal</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Terms of Use</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Cookie Policy</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Legal Notice</a></li>
+                </ul>
+            </div>
+            
+            <!-- Follow Us Column -->
+            <div>
+                <h3 class="text-lg font-medium uppercase tracking-wider mb-4">Follow Us</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Instagram</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Facebook</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Twitter</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">YouTube</a></li>
+                </ul>
+            </div>
+            
+            <!-- Newsletter Column -->
+            <div>
+                <h3 class="text-lg font-medium uppercase tracking-wider mb-4">Newsletter</h3>
+                <p class="text-gray-400 text-sm mb-4">Subscribe to our newsletter for the latest updates.</p>
+                <form>
+                    <input type="email" placeholder="Your email address" class="w-full px-3 py-2 mb-2 text-sm text-gray-900 rounded">
+                    <button type="submit" class="bg-primary text-white px-4 py-2 text-sm rounded hover:bg-primary-dark transition-colors">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="max-w-6xl mx-auto pt-4 border-t border-gray-800 text-center text-gray-500 text-xs">
+            <p>© 2025 Patek Philippe SA. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+.navbar-main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.navbar-main-text img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.navbar-main-text h2 {
+    color: #1a1a1a;
+    letter-spacing: 0.3rem;
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0;
+    font-weight: 300;
+}
+
+.navbar-main-text p {
+    color: #1a1a1a;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.navbar-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.navbar-icon {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-icon a {
+    color: #1a1a1a;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar-icon a:hover {
+    color: #8b0000;
+}
+
+.navbar-icon-left {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-icon-left i {
+    color: #1a1a1a;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.navbar-icon-left i:hover {
+    color: #8b0000;
+}
+
+.manufacture-hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.patek.com/content/dam/patek-com/company/manufacture/manufacture-01.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.manufacture-hero h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+}
+
+.manufacture-hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+}
+
+.manufacture-content {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+.manufacture-intro {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.manufacture-intro h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.manufacture-intro p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.feature-image {
+    height: 250px;
+    overflow: hidden;
+}
+
+.feature-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.feature-card:hover .feature-image img {
+    transform: scale(1.05);
+}
+
+.feature-content {
+    padding: 2rem;
+}
+
+.feature-content h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.feature-content p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.feature-link {
+    display: inline-block;
+    color: #8b0000;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.feature-link:hover {
+    color: #1a1a1a;
+}
+
+.feature-link i {
+    margin-left: 5px;
+    transition: transform 0.3s;
+}
+
+.feature-link:hover i {
+    transform: translateX(5px);
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 3rem 2rem 1rem;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+}
+
+.footer-column h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+    color: #ccc;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #333;
+}
+
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .manufacture-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .manufacture-hero p {
+        font-size: 1rem;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}
